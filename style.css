@@ -1,0 +1,187 @@
+:root {
+    --color-primary: #6A1B9A; /* Roxo */
+    --color-secondary: #F3E5F5; /* Roxo claro */
+    --color-tertiary: #E1BEE7; /* Roxo mais claro */
+    --color-button: #AB47BC; /* Roxo vibrante */
+    --color-button-hover: #8E24AA; /* Roxo mais escuro */
+    --color-text: #4A148C; /* Roxo escuro para texto */
+    --color-white: #FFFFFF; /* Branco */
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;    
+    color: var(--color-white);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(157, 7, 207, 0.945);
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botão */
+button {
+    padding: 15px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: black; /* Alterado para preto */
+    border: 2px solid #000; /* Borda de 2px */
+    font-family: "Inter", sans-serif; /* Adicionada a fonte */
+    font-size: 16px;
+    font-weight: 600; /* Opcional para dar mais destaque */
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animação para hover */
+}
+
+.button-add:hover {
+    background-color: var(--color-button-hover);
+    transform: scale(1.05); /* Leve zoom no hover */
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: black; /* Cor alterada para preto */
+    font-family: "Inter", sans-serif; /* Fonte alterada para Inter */
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 0;
+    display: flex; /* Alterado para flex para exibição em linha */
+    flex-wrap: wrap; /* Permite que os itens se ajustem à largura da tela */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.name-list li {
+    background-color: var(--color-tertiary);
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botão de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
