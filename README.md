@@ -40,6 +40,7 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 ├── 📄 style.css
 └── 📄 app.js
 
+
 ---
 
 ## 📋 Como Utilizar
