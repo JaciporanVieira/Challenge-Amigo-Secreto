@@ -72,7 +72,7 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 ## Capturas de Tela 🖼️
 
 1. **Tela Inicial**  
-   ![Tela Inicial](./assets/tela-inicial.png)
+   !![Tela Inicial](./assets/tela-inicial.png)
 
 2. **Sorteio Realizado**  
    ![Sorteio Realizado](./assets/sorteio-realizado.png)
