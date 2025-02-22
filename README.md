@@ -31,8 +31,7 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ## 📂 Estrutura do Projeto
 
-
-
+'''
 📦 Challenge-Amigo-Secreto
 ├── 📁 assets
 │   ├── amigo-secreto.png
@@ -41,7 +40,7 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 │   ├── draw-example.png
 ├── 📄 index.html
 ├── 📄 style.css
-└── 📄 app.js
+└── 📄 app.js   '''
 
 
 ---
