@@ -12,11 +12,13 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ## 🚀 Funcionalidades
 
-- **Adicionando Participantes**: Insira os nomes dos amigos de forma prática e visualize a lista atualizada automaticamente.
-- **Sorteio Aleatório**: Cada participante pode visualizar seu amigo secreto, garantindo surpresas.
+- **Adição de nomes personalizados**: Você pode inserir os nomes dos participantes e, mesmo que estejam em letras minúsculas, a primeira letra será automaticamente capitalizada
+- **Sorteio Aleatório**: Cada participante pode visualizar seu amigo secreto, garantindo surpresas. Sorteie um Amigo Secreto e veja o nome por 1,5 segundos antes da mensagem "Carregando para o próximo sorteio..." aparecer.
 - **Interface Agradável**: Um design limpo, responsivo e fácil de usar.
+- **Evita duplicatas**: Não é permitido adicionar o mesmo nome duas vezes.
 - **Mensagens Dinâmicas**: Apresentação animada do resultado com mensagens de transição entre sorteios.
-
+- **Remoção automática:**:  Após ser sorteado, o participante é removido da lista para evitar repetições.
+  
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -29,10 +31,15 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ## 📂 Estrutura do Projeto
 
-- `index.html`: Arquivo principal que estrutura a interface.
-- `style.css`: Estilização responsiva e personalizada do projeto.
-- `app.js`: Contém a lógica para gerenciar participantes e realizar os sorteios.
-- `assets/`: Contém as imagens usadas no projeto.
+📦 Challenge-Amigo-Secreto
+├── 📁 assets
+│   ├── amigo-secreto.png
+│   ├── add-names-example.png
+│   ├── friends-list-example.png
+│   ├── draw-example.png
+├── 📄 index.html
+├── 📄 style.css
+└── 📄 app.js
 
 ---
 
@@ -52,17 +59,9 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ---
 
-## 💡 Melhorias Aplicadas
-
-- Implementação de restrições para evitar que alguém tire a si mesmo como amigo secreto.
-- Integração com banco de dados para persistir participantes e resultados.
-- Opção de exportar os resultados em PDF ou compartilhá-los diretamente via e-mail.
-
----
-
 ## 👨‍💻 Desenvolvedor
 
-**Jaciporan Vieira**
+Desenvolvido por **Jaciporan Vieira**
 
 - [GitHub](https://github.com/JaciporanVieira)
 - [LinkedIn](https://www.linkedin.com/in/jaciporan-vieira)
@@ -71,10 +70,10 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ## Capturas de Tela 🖼️
 
-1. **Tela Inicial**  
+1. 🏠 **Tela Inicial**  
    ![Tela Inicial](./assets/tela_inicial.png)
 
-2. **Sorteio Realizado**  
+2. 🎲 **Sorteio Realizado**  
    ![Sorteio Realizado](./assets/sorteio_realizado.png)
 
 ---
