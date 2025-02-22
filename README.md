@@ -69,9 +69,13 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ---
 
-## 🖼️ Captura de Tela
+## Capturas de Tela 🖼️
 
-![Imagem do Projeto](assets/amigo-secreto-preview.png)
+1. **Tela Inicial**  
+   ![Tela Inicial](./assets/tela-inicial.png)
+
+2. **Sorteio Realizado**  
+   ![Sorteio Realizado](./assets/sorteio-realizado.png)
 
 ---
 
