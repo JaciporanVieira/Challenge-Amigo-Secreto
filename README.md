@@ -31,7 +31,6 @@ O objetivo deste projeto é criar uma experiência intuitiva e moderna para real
 
 ## 📂 Estrutura do Projeto
 
-📦 Challenge-Amigo-Secreto
 ├── 📁 assets
 │   ├── amigo-secreto.png
 │   ├── add-names-example.png
